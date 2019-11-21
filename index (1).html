@@ -1,0 +1,56 @@
+<html>
+    
+ <!--Ver documentación -->
+    <!--
+    Autora: Profa. Jeannette Milland Vigio
+    Escuela Secundaria de la Universidad de Puerto Rico 
+    Recinto de Rio Piedras
+    20 de octubre de 2019
+    
+    Tema de la lección: <!--Divisiones con divisiones anidadas, utilizando el principios de ancho de columnas de Boostrap basados en 12vos de ancho y porciento 
+
+    Objetivos:
+    1.  Codificar una división que contenga una imagen centralizada
+    2.  Codificar una división que contenga múltiples divisiones
+    3.  Asignar variedad de anchos de columnas "width", utilizando como         referencia las medidas de Bootstrap
+    4.  Asignar multiples clases para un mismo objeto.
+        colWidth12-12 flexCentered hi50
+-->
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <title>Divisions</title>
+    </head>
+    <body>
+    <!--1 de 12/12-->
+        <div class="colWidth12-12 hi500">
+            <center>
+            <img src="http://bit.ly/carita-alegre">
+        </center></div>
+    <!--2 de 6/12-->
+        <div class="colWidth12-12">
+            <div class="colWidth6-12 leftCol hi300"><center>
+                 <img src="http://bit.ly/carita-alegre">
+            </center>
+            </div>
+            <div class="colWidth6-12 rightCol hi300"><center>
+                 <img src="http://bit.ly/carita-alegre">
+            </center>
+            </div>
+        </div>
+    <!--3 de 4/12-->
+        <div class="colWidth12-12 hi500">
+            <div class="colWidth4-12 leftCol hi300"><center>
+                 <img src="http://bit.ly/carita-alegre">
+            </center>
+            </div>
+            <div class="colWidth4-12 leftCol hi300"><center>
+                 <img src="http://bit.ly/carita-alegre">
+            </center>
+            </div>
+            <div class="colWidth4-12 rightCol hi300"><center>
+                 <img src="http://bit.ly/carita-alegre">
+            </center>
+            </div>
+        </div>
+    </body>
+</html>
